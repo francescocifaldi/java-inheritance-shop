@@ -66,4 +66,13 @@ public class Prodotto {
         this.iva = iva;
     }
 
+    // metodi
+    public double calcolaPrezzoFinale() {
+        return prezzo + (prezzo * iva / 100);
+    }
+
+    public String getFullname() {
+        return codice + "-" + nome + "-" + marca;
+    }
+
 }
