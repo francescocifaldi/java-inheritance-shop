@@ -3,6 +3,7 @@ package org.lessons.java.shop;
 import java.util.Random;
 
 public class Prodotto {
+    // attributi
     protected int codice;
     protected String nome;
     protected String marca;

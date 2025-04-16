@@ -1,6 +1,7 @@
 package org.lessons.java.shop;
 
 public class Smartphone extends Prodotto {
+    // attributi
     private String codiceIMEI;
     private int memoria;
 

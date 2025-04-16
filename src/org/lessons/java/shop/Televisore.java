@@ -1,6 +1,7 @@
 package org.lessons.java.shop;
 
 public class Televisore extends Prodotto {
+    // attributi
     private int dimensioni;
     private boolean isSmart;
 
