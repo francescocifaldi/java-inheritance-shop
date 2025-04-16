@@ -10,7 +10,7 @@ public class Prodotto {
     protected int iva;
 
     // costruttori
-    public Prodotto(int codice, String nome, String marca, double prezzo, int iva) {
+    public Prodotto(String nome, String marca, double prezzo, int iva) {
         Random random = new Random();
         this.codice = random.nextInt(9999);
         this.nome = nome;
